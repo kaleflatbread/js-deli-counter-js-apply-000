@@ -1,3 +1,9 @@
+// takeNumber(katzDelinLine) => 'Welcome. You're number 1.'
+// takeANumber(katzDeliLine) => 'Welcome. You're number 2.'
+// nowServing(katzDeliLine) => 'Currently serving #1'
+// takeANumber(katzDeliLine) => 'Welcome. You're number 3.'
+
+
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
