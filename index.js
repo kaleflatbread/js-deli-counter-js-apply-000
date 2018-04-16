@@ -2,7 +2,12 @@
 // takeANumber(katzDeliLine) => 'Welcome. You're number 2.'
 // nowServing(katzDeliLine) => 'Currently serving #1'
 // takeANumber(katzDeliLine) => 'Welcome. You're number 3.'
-
+var number = 1
+function takeANumber(katzDeliLine,number){
+  
+  return `Welcome. You're number ${number}`;
+  
+}
 
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
